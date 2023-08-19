@@ -23,6 +23,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- font awesome link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 
 <body>
@@ -126,10 +130,28 @@
         <div class="separator"></div>
 
         <ul class="social-list">
+          
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/rami-ben-othmen-b625611a4/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.hackerrank.com/ramibenothmen15" class="social-link">
+                <svg xmlns="http://www.w3.org/2000/svg" height="0.875em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#c7cbd6}</style><path d="M477.5 128C463 103.05 285.13 0 256.16 0S49.25 102.79 34.84 128s-14.49 230.8 0 256 192.38 128 221.32 128S463 409.08 477.49 384s14.51-231 .01-256zM316.13 414.22c-4 0-40.91-35.77-38-38.69.87-.87 6.26-1.48 17.55-1.83 0-26.23.59-68.59.94-86.32 0-2-.44-3.43-.44-5.85h-79.93c0 7.1-.46 36.2 1.37 72.88.23 4.54-1.58 6-5.74 5.94-10.13 0-20.27-.11-30.41-.08-4.1 0-5.87-1.53-5.74-6.11.92-33.44 3-84-.15-212.67v-3.17c-9.67-.35-16.38-1-17.26-1.84-2.92-2.92 34.54-38.69 38.49-38.69s41.17 35.78 38.27 38.69c-.87.87-7.9 1.49-16.77 1.84v3.16c-2.42 25.75-2 79.59-2.63 105.39h80.26c0-4.55.39-34.74-1.2-83.64-.1-3.39.95-5.17 4.21-5.2 11.07-.08 22.15-.13 33.23-.06 3.46 0 4.57 1.72 4.5 5.38C333 354.64 336 341.29 336 373.69c8.87.35 16.82 1 17.69 1.84 2.88 2.91-33.62 38.69-37.58 38.69z"/></svg>
+            </a>
+        </li>        
 
           <li class="social-item">
             <a href="https://www.facebook.com/benothmen99/" class="social-link">
               <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/RBenOthmen" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
 
@@ -139,11 +161,6 @@
             </a>
           </li>
 
-          <li class="social-item">
-            <a href="https://www.linkedin.com/in/rami-ben-othmen-b625611a4/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
 
         </ul>
 
@@ -201,7 +218,7 @@
         - #ABOUT
       -->
 
-      <article class="about active" data-page="about">
+      <article class="about " data-page="about">
 
         <header>
           <h2 class="h2 article-title">About me</h2>
@@ -691,7 +708,7 @@
         - #PORTFOLIO
       -->
 
-      <article class="portfolio" data-page="portfolio">
+      <article class="portfolio active" data-page="portfolio">
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -756,19 +773,55 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/RBenOthmen/FileRenamer">
+              <a href="https://drive.google.com/file/d/1lVtEpo1RNz5w_9MHZYTq6agxQX5EqJQ0/view?usp=sharing">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://allthings.how/content/images/wordpress/2021/06/allthings.how-how-to-rename-files-in-windows-11-rename-file.png" alt="finance" loading="lazy">
+                  <img src="https://www.vidmore.com/images/2019/08/mp4-to-mp3-s-1200x681.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">File Renamer</h3>
+                <h3 class="project-title">MP4_to_MP3 Converter</h3>
 
-                <p class="project-category">Dektop Application</p>
+                <p class="project-category">Converts MP4 video files to high-quality MP3 audio files with ease using a user-friendly interface.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://drive.google.com/file/d/1ZsDlOFXUmcY_PEdlu-NosQeCmXjaUL0y/view?usp=drive_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="data:image/jpeg;base64,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" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FileXChange</h3>
+
+                <p class="project-category">Streamline the process of changing file extensions in bulk with our user-friendly GUI.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://drive.google.com/file/d/1aAwuZX7jgms3ImUtJxUaVj1hf3OQMmVR/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://i.gifer.com/QgxJ.gif" alt="Ping pong" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ping-Pong</h3>
+
+                <p class="project-category">A classic ping-pong game that encapsulates the timeless thrill of table tennis. With intuitive controls and dynamic gameplay, it offers an engaging experience that keeps you hooked for hours.</p>
 
               </a>
             </li>
@@ -786,25 +839,25 @@
 
                 <h3 class="project-title">Movies Management</h3>
 
-                <p class="project-category">Web Application</p>
+                <p class="project-category">displays movies from an online API, showcasing them with images and descriptions in a user-friendly interface.</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="https://github.com/RBenOthmen/PingPong">
+              <a href="https://drive.google.com/file/d/1Q6xxYgHxbkMSh75L_ct2oaTykKVp_jXs/view?usp=sharing">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="https://i.gifer.com/QgxJ.gif" alt="Ping pong" loading="lazy">
+                  <img src="https://www.thoughtsmag.com/wp-content/uploads/2022/11/Fastest-YouTube-Downloader.jpg" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Ping pong</h3>
+                <h3 class="project-title">Youtube Downloader</h3>
 
-                <p class="project-category">Dektop Application</p>
+                <p class="project-category">Simplifies the process of downloading videos and audio tracks from YouTube.</p>
 
               </a>
             </li>
@@ -822,7 +875,7 @@
 
                 <h3 class="project-title">English for Lazy</h3>
 
-                <p class="project-category">Web Application</p>
+                <p class="project-category">teaches and refines English pronunciation skills, helping learners master the nuances of spoken English through engaging exercises and real-time feedback.</p>
 
               </a>
             </li>
@@ -840,7 +893,7 @@
 
                 <h3 class="project-title">Grade Management</h3>
 
-                <p class="project-category">Web Application</p>
+                <p class="project-category"> tracks and manages student grades, providing a comprehensive tool for educators to input, calculate, and analyze academic performance effortlessly.</p>
 
               </a>
             </li>
@@ -858,7 +911,25 @@
 
                 <h3 class="project-title">Employee Management</h3>
 
-                <p class="project-category">Web Application</p>
+                <p class="project-category">efficiently overseeing employee data, including HR records, performance evaluations, and work schedules, streamlining workforce management within your organization.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="https://drive.google.com/file/d/1eT2d63TO5wy6nfv88H-20pwx2g8b5wqq/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://allthings.how/content/images/wordpress/2021/06/allthings.how-how-to-rename-files-in-windows-11-rename-file.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">FolderAlias</h3>
+
+                <p class="project-category">Simplify the process of renaming multiple files within a selected folder.</p>
 
               </a>
             </li>
