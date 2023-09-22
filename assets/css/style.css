@@ -1910,3 +1910,18 @@ textarea.form-input::-webkit-resizer { display: none; }
   visibility: visible;
   opacity: 1;
 }
+
+
+.download {
+  --bs-btn-padding-y: .25rem;
+  --bs-btn-padding-x: .5rem;
+  --bs-btn-font-size: .75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.info-content .download {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
